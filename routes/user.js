@@ -39,7 +39,7 @@ router.post("/signup", async (req, res) => {
       salt: salt,
     });
 
-    console.log(newUser);
+    // console.log(newUser);
 
     await newUser.save();
 

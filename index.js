@@ -20,8 +20,6 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-const banane = "test";
-
 app.use(express.json());
 
 // import de mes routes

@@ -47,7 +47,7 @@ router.post(
         owner: req.user,
       });
 
-      console.log(newOffer);
+      // console.log(newOffer);
 
       await newOffer.save();
 
